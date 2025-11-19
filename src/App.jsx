@@ -1,6 +1,9 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import Trailer from './components/Trailer'
+import Screenshots from './components/Screenshots'
+import Community from './components/Community'
 import Pricing from './components/Pricing'
 import CTA from './components/CTA'
 
@@ -17,6 +20,9 @@ function App() {
       <main>
         <Hero />
         <Features />
+        <Trailer />
+        <Screenshots />
+        <Community />
         <Pricing />
         <CTA />
       </main>
